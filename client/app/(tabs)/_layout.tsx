@@ -10,6 +10,7 @@ export default function TabLayout() {
     const {cartItems} = useCart()
 
   return (
+    
     <Tabs
     screenOptions={{
         headerShown: false,

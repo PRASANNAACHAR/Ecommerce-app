@@ -1,1 +1,6 @@
-ecom video ended mobile app : 4:3:56
+ecom video ended mobile app : 5:23:56
+
+
+
+App (EAS Build)
+npx expo start --dev-client
