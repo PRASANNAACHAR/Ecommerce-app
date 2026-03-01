@@ -4,7 +4,7 @@ import { Product, ProductCardProps } from '@/constants/types'
 import { Link } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS } from '@/constants'
-import { useWishlist } from '@/context/WIshlistContext'
+import { useWishlist } from '@/context/WishlistContext'
 
 export default function ProductCard({product}: ProductCardProps) {
     
