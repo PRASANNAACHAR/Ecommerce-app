@@ -6,7 +6,12 @@ import User from "../models/User.js"
 
 export const clerkWebhook =  async (req: Request, res: Response) => {
   try {
+
+    console.log("🔥 Webhook Hit")
+
     const evt = await verifyWebhook(req)
+
+    console.log("Event:", evt.type)
 
     if(evt.type === 'user.created'|| evt.type === 'user.updated'){
         const user = await User.findOne({clerkId: evt.data.id})
